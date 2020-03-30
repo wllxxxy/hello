@@ -1,0 +1,20 @@
+{
+    "name": "wllxxxy/hello",
+    "type": "library",
+    "require": {
+        "php": ">=7.1.23"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wllxxxy",
+            "email": "wllxxxy@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "wllxxxy\\hello\\": "src/"
+        }
+    }
+}
